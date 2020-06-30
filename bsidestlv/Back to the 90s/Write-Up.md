@@ -1,6 +1,6 @@
 # Back to the 90s - Write Up
 
-This was very interesting challenge and also the first time i reversed a web assembly binary.
+This was a very interesting challenge and also the first time i reversed a web assembly binary.
 
 ## Info
 
