@@ -66,7 +66,7 @@ By placing a bunch of breakpoints in the code we find out that the function that
       local.get 39
 ```
 
-Looking at funtion 7 it is filled with the logic to trasform an integer to the corresponding binary, but it also has this block that is called every 8 fruits, in fact this block is used to generate a new number/letter for the flag, if we can reverse this we have the flag:
+Looking at function 7 it is filled with the logic to trasform an integer to the corresponding binary, but it also has this block that is called every 8 fruits, in fact this block is used to generate a new number/letter for the flag, if we can reverse this we have the flag:
 ```
     block  ;; label = @1
       
@@ -152,10 +152,11 @@ BSidesTetNCBTsBSidesTetNCBTsBSidesTetNCBTsBSidesTetNCB
 
 Which is still not the flag and is also different from what the Snake Bot returns (for some reason?).
 
-But where is the flag? Well, if we look at the memory where the vector for the xor is located we can see that is actually a lot longer than the required, in fact it is:
+But where is the flag? Well, if we look at the memory where the vector for the xor is located we can see that is actually a lot longer than required, in fact it is:
 
 ```
-[49, 17, 58, 13, 1, 22, 39, 24, 26, 100, 2, 2, 2, 75, 44, 102, 66, 23, 11, 2, 50, 54, 92, 106, 48, 1, 2, 21, 38, 47, 63, 60, 70, 80, 22, 0, 64, 87, 59, 61, 27, 38, 43, 28, 91, 108, 51, 95, 7, 70, 28, 11, 1, 25]```
+[49, 17, 58, 13, 1, 22, 39, 24, 26, 100, 2, 2, 2, 75, 44, 102, 66, 23, 11, 2, 50, 54, 92, 106, 48, 1, 2, 21, 38, 47, 63, 60, 70, 80, 22, 0, 64, 87, 59, 61, 27, 38, 43, 28, 91, 108, 51, 95, 7, 70, 28, 11, 1, 25]
+```
 
 Seeing this i tried the same xoring algorithm with the whole vector:
 
