@@ -1,0 +1,10 @@
+# Nmap 7.60 scan initiated Sat Jul 18 14:11:21 2020 as: nmap -sV -sT -Pn -oN nmap.txt 159.69.18.67
+Nmap scan report for static.67.18.69.159.clients.your-server.de (159.69.18.67)
+Host is up (0.036s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol 2.0)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Jul 18 14:11:29 2020 -- 1 IP address (1 host up) scanned in 8.44 seconds
