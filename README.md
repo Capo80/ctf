@@ -22,6 +22,6 @@ AES_encrypt(stuff)
 
 ### Useful things sometimes
 
-Functions always have the same pre and post, can be used as known-plain-test attack.
+- Functions always have the same pre and post, can be used as known-plain-test attack.
 
-
+- https://github.com/makomk/aeskeyfind <--- find AES keys in memory dumps
