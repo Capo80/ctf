@@ -25,3 +25,5 @@ AES_encrypt(stuff)
 - Functions always have the same pre and post, can be used as known-plain-test attack.
 
 - https://github.com/makomk/aeskeyfind <--- find AES keys in memory dumps
+
+- "golang.org/x/net/bpf" is BPF filter decompiler (used in a challenge here: https://github.com/Kasimir123/CTFWriteUps/tree/main/03-2021-Zer0pts/Syscall-777)
