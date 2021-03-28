@@ -27,3 +27,5 @@ AES_encrypt(stuff)
 - https://github.com/makomk/aeskeyfind <--- find AES keys in memory dumps
 
 - "golang.org/x/net/bpf" is BPF filter decompiler (used in a challenge here: https://github.com/Kasimir123/CTFWriteUps/tree/main/03-2021-Zer0pts/Syscall-777)
+
+- wasm2c -> gcc -c game.c -I wabt/wasm2c/ -I wabt/third_party/wasm-c-api/include/   (to compile wasm into c and try to open in IDA/ghidra)
